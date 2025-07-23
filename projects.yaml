@@ -1,15 +1,15 @@
 projects:
-  - name: payments-devv-app
-    projectId: payments-devv-app
+  - name: payments-dev-app
+    projectId: payments-dev-app
     labels: 
       department: payments
       env: dev
 
-  - name: payments-env-app
-    projectId: payments-env-app
+  - name: payments-prod-app
+    projectId: payments-prod-app
     labels:
       department: payments
-      env: env
+      env: prod
 
   - name: analytics-dev-app
     projectId: analytics-dev-app
@@ -17,11 +17,11 @@ projects:
       department: analytics
       env: dev
 
-  - name: analytics-env-app
-    projectId: analytics-env-app
+  - name: analytics-prod-app
+    projectId: analytics-prod-app
     labels:
       department: analytics
-      env: env
+      env: prod
   - name: payements-uat-app1   # new project added
     projectId: payments-uat-app1
     labels:
